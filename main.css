@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(159, 159, 163);
+}
 .parent {
     display: flex;
     flex-direction: row;
@@ -6,7 +9,20 @@
 
 }
 .containerItems {
+    font: 18pt;
+    background-color: cornsilk;
+    flex-direction: row;
+    flex-wrap: nowrap;
     flex-basis: 15%;
     border: 2px solid black;
     padding: 10px;
+    min-width: 200px;
+}
+.info {    
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-size: larger;
+}
+.info::first-letter{
+    text-transform: capitalize;
 }
