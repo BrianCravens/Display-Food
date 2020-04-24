@@ -1,0 +1,12 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+.containerItems {
+    flex-basis: 15%;
+    border: 2px solid black;
+    padding: 10px;
+}
